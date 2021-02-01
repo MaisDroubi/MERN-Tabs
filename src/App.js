@@ -4,13 +4,10 @@ import Tabs from './components/Tabs';
 function App() {
   const tab_list = [
     {tab_name: "Tab 1", tab_content: "Tab 1 content is showing here", callback(){
-      console.log(this.tab_name, "was clicked");
     }},
     {tab_name: "Tab 2", tab_content: "Tab 2 content is showing here", callback(){
-      console.log(this.tab_name, "was clicked");
     }},
     {tab_name: "Tab 3", tab_content: "Tab 3 content is showing here", callback(){
-      console.log(this.tab_name, "was clicked");
     }},
   ];
   return (
